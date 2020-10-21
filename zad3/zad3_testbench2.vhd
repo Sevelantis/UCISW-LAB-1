@@ -36,6 +36,7 @@ A <= '0', '0' after 100 ns, '0' after 200 ns, '0' after 300 ns, '0' after 400 ns
 B <= '0', '0' after 100 ns, '0' after 200 ns, '0' after 300 ns, '1' after 400 ns, '1' after 500 ns, '1' after 600 ns, '1' after 700 ns, '0' after 800 ns, '0' after 900 ns, '0' after 1000 ns, '0' after 1100 ns, '1' after 1200 ns, '1' after 1300 ns, '1' after 1400 ns, '1' after 1500 ns, '0' after 1600 ns;
 C <= '0', '0' after 100 ns, '1' after 200 ns, '1' after 300 ns, '0' after 400 ns, '0' after 500 ns, '1' after 600 ns, '1' after 700 ns, '0' after 800 ns, '0' after 900 ns, '1' after 1000 ns, '1' after 1100 ns, '0' after 1200 ns, '0' after 1300 ns, '1' after 1400 ns, '1' after 1500 ns, '0' after 1600 ns;
 D <= '0', '1' after 100 ns, '0' after 200 ns, '1' after 300 ns, '0' after 400 ns, '1' after 500 ns, '0' after 600 ns, '1' after 700 ns, '0' after 800 ns, '1' after 900 ns, '0' after 1000 ns, '1' after 1100 ns, '0' after 1200 ns, '1' after 1300 ns, '0' after 1400 ns, '1' after 1500 ns, '0' after 1600 ns;
+ 
   --  End Test Bench 
 
   END;
