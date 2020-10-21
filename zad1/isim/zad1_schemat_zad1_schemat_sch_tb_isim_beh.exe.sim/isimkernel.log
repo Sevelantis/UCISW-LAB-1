@@ -1,0 +1,28 @@
+Command line:
+   zad1_schemat_zad1_schemat_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50019
+
+Wed Oct 21 12:36:16 2020
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 5466.56 Meg
+
+ Total Signals          : 34
+ Total Nets             : 28
+ Total Signal Drivers   : 3
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 3
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 511
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 4994.7 Meg
+
+Wed Oct 21 12:38:23 2020
+
