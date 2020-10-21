@@ -1,0 +1,19 @@
+select figure at 68 2446 8 -branches -sn=1
+select figure at 79 1950 8 -branches -sn=1
+select figure at 84 1939 8 -branches -sn=1
+select figure at 88 2448 8 -branches -sn=1
+select figure at 57 2481 8 -branches -sn=1
+move iomarker at 80 2448 to 80 2480 R180 -keepConn -sn=1
+undo
+select figure at 38 1928 8 -branches -sn=1
+move iomarker at 64 1936 to 80 1904 R180 -keepConn -sn=1
+undo
+select figure at 5 772 8 -branches -sn=1
+move iomarker at 16 768 to 64 640 R180 -keepConn -sn=1
+select figure at 8 343 8 -branches -sn=1
+move iomarker at 16 336 to 96 288 R180 -keepConn -sn=1
+select all in -2147483648 -2147483648 2147483647 2147483647 -sn=1
+select all in -2147483648 -2147483648 2147483647 2147483647 -sn=1
+select figure at 3070 2583 8 -branches -sn=1
+select all in -2147483648 -2147483648 2147483647 2147483647 -sn=1
+select all in -2147483648 -2147483648 2147483647 2147483647 -sn=1

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 1/zad2/zad2_schemat.xst" -ofn "E:/SZKOLA/aaaSEMESTR - 5/UCISW/Lab 1/zad2/zad2_schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "zad2_schemat.ngc" zad2_schemat.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o zad2_schemat_map.ncd zad2_schemat.ngd zad2_schemat.pcf 
+par -w -intstyle ise -ol high -mt off zad2_schemat_map.ncd zad2_schemat.ncd zad2_schemat.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml zad2_schemat.twx zad2_schemat.ncd -o zad2_schemat.twr zad2_schemat.pcf 
