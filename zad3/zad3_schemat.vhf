@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : zad3_schemat.vhf
--- /___/   /\     Timestamp : 10/22/2020 02:07:44
+-- /___/   /\     Timestamp : 10/22/2020 11:12:24
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -26,10 +26,10 @@ library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
 entity zad3_schemat is
-   port ( A0  : in    std_logic; 
-          A1  : in    std_logic; 
-          A2  : in    std_logic; 
-          A3  : in    std_logic; 
+   port ( A   : in    std_logic; 
+          B   : in    std_logic; 
+          C   : in    std_logic; 
+          D   : in    std_logic; 
           Wy0 : out   std_logic; 
           Wy1 : out   std_logic; 
           Wy2 : out   std_logic; 
@@ -103,8 +103,8 @@ architecture BEHAVIORAL of zad3_schemat is
 begin
    Wy0 <= Wy0_DUMMY;
    XLXI_44 : AND2
-      port map (I0=>A2,
-                I1=>A3,
+      port map (I0=>B,
+                I1=>A,
                 O=>XLXN_163);
    
    XLXI_54 : AND3
@@ -120,9 +120,9 @@ begin
                 O=>XLXN_161);
    
    XLXI_56 : AND3
-      port map (I0=>A0,
-                I1=>A1,
-                I2=>A3,
+      port map (I0=>D,
+                I1=>C,
+                I2=>A,
                 O=>XLXN_160);
    
    XLXI_60 : OR4
@@ -146,40 +146,40 @@ begin
                 O=>Wy1);
    
    XLXI_63 : INV
-      port map (I=>A3,
+      port map (I=>A,
                 O=>XLXN_154);
    
    XLXI_64 : INV
-      port map (I=>A2,
+      port map (I=>B,
                 O=>XLXN_182);
    
    XLXI_65 : INV
-      port map (I=>A1,
+      port map (I=>C,
                 O=>Wy0_DUMMY);
    
    XLXI_66 : INV
-      port map (I=>A0,
+      port map (I=>D,
                 O=>XLXN_159);
    
    XLXI_82 : AND2
       port map (I0=>XLXN_182,
-                I1=>A3,
+                I1=>A,
                 O=>XLXN_172);
    
    XLXI_84 : AND2
       port map (I0=>Wy0_DUMMY,
-                I1=>A3,
+                I1=>A,
                 O=>XLXN_171);
    
    XLXI_85 : AND2
       port map (I0=>XLXN_159,
-                I1=>A3,
+                I1=>A,
                 O=>XLXN_170);
    
    XLXI_88 : AND4
-      port map (I0=>A0,
-                I1=>A1,
-                I2=>A2,
+      port map (I0=>D,
+                I1=>C,
+                I2=>B,
                 I3=>XLXN_154,
                 O=>XLXN_169);
    
@@ -190,13 +190,13 @@ begin
                 O=>XLXN_178);
    
    XLXI_90 : AND2
-      port map (I0=>A0,
-                I1=>A2,
+      port map (I0=>D,
+                I1=>B,
                 O=>XLXN_179);
    
    XLXI_91 : AND2
-      port map (I0=>A1,
-                I1=>A2,
+      port map (I0=>C,
+                I1=>B,
                 O=>XLXN_180);
    
 end BEHAVIORAL;

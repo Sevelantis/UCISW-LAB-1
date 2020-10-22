@@ -122,12 +122,6 @@ static void work_a_2770298389_3212880686_p_0(char *t0)
     char *t93;
     char *t94;
     char *t95;
-    int64 t96;
-    char *t97;
-    char *t98;
-    char *t99;
-    char *t100;
-    char *t101;
 
 LAB0:    xsi_set_current_line(58, ng0);
 
@@ -258,14 +252,6 @@ LAB3:    t1 = (t0 + 4440);
     t95 = *((char **)t94);
     *((unsigned char *)t95) = (unsigned char)3;
     xsi_driver_subsequent_trans_delta(t91, 0U, 1, t90);
-    t96 = (1600 * 1000LL);
-    t97 = (t0 + 4440);
-    t98 = (t97 + 56U);
-    t99 = *((char **)t98);
-    t100 = (t99 + 56U);
-    t101 = *((char **)t100);
-    *((unsigned char *)t101) = (unsigned char)2;
-    xsi_driver_subsequent_trans_delta(t97, 0U, 1, t96);
 
 LAB2:
 LAB1:    return;
@@ -370,12 +356,6 @@ static void work_a_2770298389_3212880686_p_1(char *t0)
     char *t93;
     char *t94;
     char *t95;
-    int64 t96;
-    char *t97;
-    char *t98;
-    char *t99;
-    char *t100;
-    char *t101;
 
 LAB0:    xsi_set_current_line(59, ng0);
 
@@ -506,14 +486,6 @@ LAB3:    t1 = (t0 + 4504);
     t95 = *((char **)t94);
     *((unsigned char *)t95) = (unsigned char)3;
     xsi_driver_subsequent_trans_delta(t91, 0U, 1, t90);
-    t96 = (1600 * 1000LL);
-    t97 = (t0 + 4504);
-    t98 = (t97 + 56U);
-    t99 = *((char **)t98);
-    t100 = (t99 + 56U);
-    t101 = *((char **)t100);
-    *((unsigned char *)t101) = (unsigned char)2;
-    xsi_driver_subsequent_trans_delta(t97, 0U, 1, t96);
 
 LAB2:
 LAB1:    return;
@@ -618,12 +590,6 @@ static void work_a_2770298389_3212880686_p_2(char *t0)
     char *t93;
     char *t94;
     char *t95;
-    int64 t96;
-    char *t97;
-    char *t98;
-    char *t99;
-    char *t100;
-    char *t101;
 
 LAB0:    xsi_set_current_line(60, ng0);
 
@@ -754,14 +720,6 @@ LAB3:    t1 = (t0 + 4568);
     t95 = *((char **)t94);
     *((unsigned char *)t95) = (unsigned char)3;
     xsi_driver_subsequent_trans_delta(t91, 0U, 1, t90);
-    t96 = (1600 * 1000LL);
-    t97 = (t0 + 4568);
-    t98 = (t97 + 56U);
-    t99 = *((char **)t98);
-    t100 = (t99 + 56U);
-    t101 = *((char **)t100);
-    *((unsigned char *)t101) = (unsigned char)2;
-    xsi_driver_subsequent_trans_delta(t97, 0U, 1, t96);
 
 LAB2:
 LAB1:    return;
@@ -866,12 +824,6 @@ static void work_a_2770298389_3212880686_p_3(char *t0)
     char *t93;
     char *t94;
     char *t95;
-    int64 t96;
-    char *t97;
-    char *t98;
-    char *t99;
-    char *t100;
-    char *t101;
 
 LAB0:    xsi_set_current_line(61, ng0);
 
@@ -1002,14 +954,6 @@ LAB3:    t1 = (t0 + 4632);
     t95 = *((char **)t94);
     *((unsigned char *)t95) = (unsigned char)3;
     xsi_driver_subsequent_trans_delta(t91, 0U, 1, t90);
-    t96 = (1600 * 1000LL);
-    t97 = (t0 + 4632);
-    t98 = (t97 + 56U);
-    t99 = *((char **)t98);
-    t100 = (t99 + 56U);
-    t101 = *((char **)t100);
-    *((unsigned char *)t101) = (unsigned char)2;
-    xsi_driver_subsequent_trans_delta(t97, 0U, 1, t96);
 
 LAB2:
 LAB1:    return;
